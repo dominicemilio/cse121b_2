@@ -2,7 +2,7 @@
 
 /* Function Declaration */
 
-/* ✔️ Addition Feature */
+/*  Addition Feature */
 function add(number1, number2) {
     return number1 + number2;
 }
@@ -17,7 +17,7 @@ document.querySelector('#addNumbers').addEventListener('click', addNumbers);
 
 /* Function Expression */
 
-/* ✔️ Subtraction Feature */
+/*  Subtraction Feature */
 var subtract = function (number1, number2) {
     return number1 - number2;
 };
@@ -32,7 +32,7 @@ document.querySelector('#subtractNumbers').addEventListener('click', subtractNum
 
 /* Arrow Functions */
 
-/* ✔️ Multiplication Feature */
+/*  Multiplication Feature */
 const multiply = (number1, number2) => number1 * number2;
 
 const multiplyNumbers = () => {
@@ -45,7 +45,7 @@ document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNum
 
 /* Your Choice */
 
-/* ✔️ Division Feature */
+/*  Division Feature */
 function divide(dividend, divisor) {
     if (divisor !== 0) {
         return dividend / divisor;
@@ -94,3 +94,6 @@ document.querySelector('#multiplied').innerHTML = numbersArray.map(number => num
 
 /* Sum of Multiplied by 2 */
 document.querySelector('#sumOfMultiplied').innerHTML = numbersArray.map(number => number * 2).reduce((sum, number) => sum + number, 0);
+
+
+
