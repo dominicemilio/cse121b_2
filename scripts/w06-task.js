@@ -43,3 +43,4 @@ function displayExpenses() {
 function updateSummary() {
   // Updating total
 }
+
