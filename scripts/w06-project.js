@@ -4,7 +4,7 @@ let expenses = [];
 let totalIncome = 0;
 let totalExpenses = 0;
 
-const currencyConverterApiKey = 'YOUR_API_KEY'; // Replace 'YOUR_API_KEY' with your actual API key
+const currencyConverterApiKey = 'YOUR_API_KEY';
 
 function addIncome() {
   const amount = parseFloat(document.getElementById('income-amount').value);
