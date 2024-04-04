@@ -1,0 +1,46 @@
+ <!-- w06-project.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Income and Expenses Tracker</title>
+  <link rel="stylesheet" href="./styles/w06-project.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Income and Expenses Tracker</h1>
+    <div class="input-section">
+      <h2>Income</h2>
+      <input type="number" id="income-amount" placeholder="Enter amount">
+      <input type="text" id="income-category" placeholder="Enter category">
+      <button onclick="addIncome()">Add Income</button>
+    </div>
+    <div class="input-section">
+      <h2>Expenses</h2>
+      <input type="number" id="expense-amount" placeholder="Enter amount">
+      <input type="text" id="expense-category" placeholder="Enter category">
+      <button onclick="addExpense()">Add Expense</button>
+    </div>
+    <div class="summary">
+      <h2>Summary</h2>
+      <div>Total Income: <span id="total-income">$0</span></div>
+      <div>Total Expenses: <span id="total-expenses">$0</span></div>
+      <div>Total Balance: <span id="total-balance">$0</span></div>
+    </div>
+
+    <div class="lists">
+      <div class="income-list">
+        <h3>Income</h3>
+        <ul id="income-list"></ul>
+      </div>
+      <div class="expense-list">
+        <h3>Expenses</h3>
+        <ul id="expense-list"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="./scripts/w06-project.js"></script>
+</body>
+</html>
